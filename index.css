@@ -1,0 +1,84 @@
+body{
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    background-color: #cac8c8;
+
+}
+.page {
+    display: grid;
+    grid-template-columns: repeat(4,150px);
+    grid-template-rows: 175px 200px 200px 175px;
+    background-color: rgb(220 220 220);
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 0px 1px 4px 5px #7c7c7c;
+
+
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten{
+       background-color: white;
+       color: black;
+       padding: 5px;
+
+
+       
+}
+.one{
+grid-column: span 2;
+
+}
+.two{
+
+
+}
+.three{
+grid-row: span 3;
+background-color: black;
+color: white;
+
+}
+.four{
+grid-row: span 2;
+
+}
+.five{
+grid-column: span 2;
+background-color: black;
+color: white;
+
+}
+.six{
+    grid-column: span 2;
+  
+}
+.seven{
+
+
+}
+.eight{
+    background-color: black;
+    color: white;
+
+}
+.nine{
+
+}
+.ten{
+    BORDER-BOTTOM: SOLID 2PX #d87112
+
+}
+h5{
+    opacity: 0.8;
+    margin-block-end: -3px;
+    margin-block-start: 5px;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.ten::before{
+    content: "";
+    BORDER-BOTTOM: SOLID #d87112 2PX;
+
+}
